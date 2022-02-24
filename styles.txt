@@ -1,0 +1,3 @@
+#282840 - Background
+#fab533 - Headings, Links
+#090924 - Footer
