@@ -424,6 +424,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	#container { margin-left: 0; }
 	ul.primary li { display: inline-block; width: 33.3333333%; float: left;}
 	ul.secondary li { display: block; }
+	.tooltip { padding: 5% 0; }
 	.tooltip:hover:before, .tooltip:hover:after { display: none; }
 	i.fa-home:after, i.fa-utensils:after, i.fa-mobile-alt:after, i.fa-wine-glass-alt:after, i.fa-shopping-bag:after {     
 		font-size: 0.5em;
