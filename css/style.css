@@ -1,20 +1,13 @@
-@font-face {
-    font-family: 'mahelisa';
-    src: url('../fonts/mahelisa-webfont.woff2') format('woff2'),
-         url('../fonts/mahelisa-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika:wght@300;500;700&display=swap');
 
-}
-
-body { font-size: 1em; font-weight: 300; font-family: 'Roboto', sans-serif; line-height: 1.6em; padding: 0; margin: 0; background: #27273f; }
-h1, h2, h3 { font-family: 'mahelisa', cursive; font-weight: 300; line-height: 1.2em; margin: 0; }
-h1 { font-size: 3.5em; color: #fab533; }
-h2 { font-size: 3em; color: #fab533; }
-h3 { font-size: 2.5em; color: #fab533; }
+body { font-size: 1em; font-weight: 300; font-family: 'Signika', sans-serif; line-height: 1.6em; padding: 0; margin: 0; background: #27273f; }
+h1, h2, h3 { font-family: 'Bebas Neue', cursive; font-weight: 300; letter-spacing: 2.5px; line-height: 1.2em; margin: 0; }
+h1 { font-size: 3em; color: #edb63f; }
+h2 { font-size: 2.5em; color: #edb63f; }
+h3 { font-size: 2em; color: #edb63f; }
 p { font-size: 1em; color: #fff; }
-a { text-decoration: none; color: #fab533; }
-a:focus, button:focus { outline: 3px solid #fab533; }
+a { text-decoration: none; color: #edb63f; }
+a:focus, button:focus { outline: 3px solid #edb63f; }
 .capitalize { text-transform: uppercase; font-weight: 500; }
 .website { padding: 5px; border: 2.5px solid; display: block; }
 .sub { font-size: 1.2em; line-height: 1.6em; }
@@ -24,15 +17,13 @@ a:focus, button:focus { outline: 3px solid #fab533; }
 	height: 225px;
 	display: block;
 	margin: 1% auto;
-	border-radius: 150px;
-	border: 2px solid #fff;
-	box-shadow:
+	/*box-shadow:
 		0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 		0 6.7px 5.3px rgba(0, 0, 0, 0.048),
 		0 12.5px 10px rgba(0, 0, 0, 0.06),
 		0 22.3px 17.9px rgba(0, 0, 0, 0.072),
 		0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-		0 100px 80px rgba(0, 0, 0, 0.12);
+		0 100px 80px rgba(0, 0, 0, 0.12);*/
 }
 .branding-menu { width: 300px; height: 300px; margin: auto; display: block; }
 header { 
@@ -46,11 +37,8 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	text-align: center;
-	color: #fff;
 }
-.index-cover { background: url('../images/marwinthai-index-cover.png') center no-repeat #27273f; background-size: cover; height: 100vh; }
-.menu-cover { background: url('../images/marwinthai-index-cover.png') center no-repeat #27273f; background-size: cover; }
-.drinks-cover { background: url('../images/marwinthai-drinks-cover.jpg') center no-repeat #27273f; background-size: cover;  }
+.index-cover { background: #050608; height: 100vh; }
 #nav-menu { 
 	background: #F0EDED;
 	font-size: 1.2em;
@@ -169,9 +157,9 @@ header {
     }
 }
 
-main { background: #1b1b2b; }
+main { background: #080914; }
 footer { 
-	background: #090924;
+	background: #05060D;
 	color: #fff;
 	padding: 2.5% 5%;
 	display: flex;
@@ -217,8 +205,8 @@ a.modal-button {
 a.map-button { 
 	width: 150px;
 	padding: 15px;
-	background: #090924;
-	color: #fff;
+	background: #121214;
+	color: #edb63f;
 	margin: 5% 0;
 	display: block;
 	text-align: center;
@@ -257,7 +245,7 @@ section {
 }
 section:after { content:''; display: table; }
 section.scroll-indicator { padding: 0 5%; justify-content: flex-end; text-align: right; display: none; }
-section.find-us { max-width: 90%; justify-content: flex-end; align-items: flex-start; background: url('../images/marwinthai-map.jpg') center no-repeat; height: 50vh; }
+section.find-us { max-width: 90%; justify-content: flex-end; align-items: flex-start; background: url('../images/thonglor-map.jpg') center no-repeat; height: 50vh; }
 table.business-hours th {
   text-align: right; 
 }
@@ -303,7 +291,7 @@ ul.tabs::-webkit-scrollbar {
 ul.display {
 	text-align: center;
 	scrollbar-width: thin;
-	scrollbar-color: #fab533 #090924;
+	scrollbar-color: #edb63f #121214;
 }
 ul.display::-webkit-scrollbar { 
 	display: block;
@@ -391,8 +379,10 @@ i.fa-subway { vertical-align: baseline; }
 i.fa-level-up-alt { vertical-align: top; }
 
 .line { display: inline-block; text-align: center; padding: 0 2.5px; border-radius: 25px; width: 20px; font-weight: 500; }
+.line-1, .line-2, .line-3 { background: #ee352e; color: #fff; }
 .line-F { background: #FF6319; }
 .line-N, .line-Q, .line-R { background: #FCCC0A; color: #000; }
+.line-A, .line-C, .line-E { background: #0039a6; color: #fff; }
 
 ul.footer-links { text-align: right; }
 ul.footer-links li { display: inline-block; padding: 0 1em; }
