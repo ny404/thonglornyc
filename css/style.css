@@ -422,7 +422,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 		bottom: 0;
 	}
 	#container { margin-left: 0; }
-	ul.primary li { display: inline-block; width: 20%; float: left;}
+	ul.primary li { display: inline-block; width: 33.3333333%; float: left;}
 	ul.secondary li { display: block; }
 	.tooltip:hover:before, .tooltip:hover:after { display: none; }
 	i.fa-home:after, i.fa-utensils:after, i.fa-mobile-alt:after, i.fa-wine-glass-alt:after, i.fa-shopping-bag:after {     
