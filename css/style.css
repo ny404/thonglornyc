@@ -311,6 +311,8 @@ ul.tabs li {
 ul.tabs.display li { padding: 1%; }
 ul.tabs.display li:first-child { padding-left: 0; }
 ul.tabs.display li:last-child { padding-right: 0; }
+ul.tabs.display li:nth-child(odd) img { border-top-left-radius: 35%; border-bottom-right-radius: 35%;}
+ul.tabs.display li:nth-child(even) img { border-top-right-radius: 35%; border-bottom-left-radius: 35%;}
 ul.tabs button { width: auto; padding: 20px; background: none; border-radius: 0; border-top: 3px solid transparent; border-bottom: 3px solid transparent; color: #fff; font-weight: inherit; }
 ul.tabs button:focus { outline: none; border-bottom: 3px solid #fab533; }
 
