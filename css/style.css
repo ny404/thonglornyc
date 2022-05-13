@@ -10,7 +10,7 @@ a { text-decoration: none; color: #edb63f; }
 a:focus, button:focus { outline: 3px solid #edb63f; }
 .capitalize { text-transform: uppercase; font-weight: 500; }
 .website { padding: 5px; border: 2.5px solid; display: block; }
-.sub { font-size: 1.2em; line-height: 1.6em; }
+.sub { font-size: 1.4em; line-height: 1.6em; text-shadow: 0px 0px 5px rgb(0, 0, 0); }
 .highlight { background: #fab533; color: #090924; margin: 2.5px; padding: 2.5px; border-radius: 2.5px; }
 .branding { 
 	width: 225px;
@@ -38,7 +38,7 @@ header {
 	flex-wrap: wrap;
 	text-align: center;
 }
-.index-cover { background: #050608; height: 100vh; }
+.index-cover { background: #050608 url("../images/thonglor-interior-index.jpg") no-repeat center; height: 100vh; background-size: cover; }
 .menu-cover { background: #050608; }
 #nav-menu { 
 	background: #F0EDED;
