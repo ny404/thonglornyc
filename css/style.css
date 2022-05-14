@@ -189,17 +189,17 @@ a.modal-button {
 	width: 150px;
 	padding: 15px;
 	margin: auto;
-	background: #090924;
-	color: #fff;
+	/*background: #EDB63F;*/
+	color: #EDB63F;
 	text-align: center;
-	border: none;
+	border: 2.5px solid #EDB63F;
 	border-radius: 5px;
 	font-size: inherit;
 	cursor: pointer;
 	opacity: 1;
-	transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+	transition: color, background .10s ease-in-out;
+    -moz-transition: color, background .10s ease-in-out;
+    -webkit-transition: color, background .10s ease-in-out;
     /*margin: 5% auto;*/
     display: block;
 }
@@ -219,9 +219,11 @@ a.map-button {
     -webkit-transition: opacity .25s ease-in-out;
 }
 button:hover, a.map-button:hover { opacity: 0.8; }
+a.modal-button:hover { background: #EDB63F; color: #fff; }
+.modal { background: #05060D !important; }
 .modal a.close-modal { display: none !important; }
 .modal img { display: block; max-width: 360px; width: 100%; margin: auto; }
-.modal p { color: #000; text-align: center; }
+.modal p { color: #fff; text-align: center; }
 
 .full-height { height: 100vh; }
 
@@ -402,7 +404,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	header { height: 100vh; }
 	footer { margin-bottom: 15%; }
 	.branding-menu { width: 200px; height: 200px; }
-	section.find-us { align-items: flex-end; height: 75vh; }
+	section.find-us { align-items: flex-end; height: 65vh; }
 	section.about-us { flex-direction: column-reverse; }
 	.about-img, .map-img { height: 50vh; }
 	section h2 { padding-top: 5%; }
@@ -427,6 +429,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	#container { margin-left: 0; }
 	ul.primary li { display: inline-block; width: 33.3333333%; float: left;}
 	ul.secondary li { display: block; }
+	ul.social li { padding: 2.5%; }
 	.tooltip { padding: 5% 0; }
 	.tooltip:hover:before, .tooltip:hover:after { display: none; }
 	i.fa-home:after, i.fa-utensils:after, i.fa-mobile-alt:after, i.fa-wine-glass-alt:after, i.fa-shopping-bag:after {     
