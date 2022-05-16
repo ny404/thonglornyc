@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika:wght@300;500;700&display=swap');
 
 body { font-size: 1em; font-weight: 300; font-family: 'Signika', sans-serif; line-height: 1.6em; padding: 0; margin: 0; background: #05060D; }
-h1, h2, h3 { font-family: 'Bebas Neue', cursive; font-weight: 300; letter-spacing: 2.5px; line-height: 1.2em; margin: 0; }
+h1, h2 { font-family: 'Bebas Neue', cursive; font-weight: 300; letter-spacing: 2.5px; line-height: 1.2em; margin: 0; }
 h1 { font-size: 3em; color: #edb63f; }
 h2 { font-size: 2.5em; color: #edb63f; }
-h3 { font-size: 2em; color: #edb63f; }
+h3 { font-size: 2em; color: #edb63f; font-family: 'Signika', sans-serif; font-weight: 300; line-height: 1.2em; margin: 0; }
 p { font-size: 1em; color: #fff; }
 a { text-decoration: none; color: #edb63f; }
 a:focus, button:focus { outline: 3px solid #edb63f; }
+img { display: block; margin: auto; }
 .capitalize { text-transform: uppercase; font-weight: 500; }
 .website { padding: 5px; border: 2.5px solid; display: block; }
 .sub { font-size: 1.4em; line-height: 1.6em; text-shadow: 0px 0px 5px rgb(0, 0, 0); }
@@ -248,6 +249,15 @@ section {
 }
 section:after { content:''; display: table; }
 section.scroll-indicator { padding: 0 5%; justify-content: flex-end; text-align: right; display: none; }
+section.story { 
+	background: url("../images/thonglor-bangkok.jpg") no-repeat top left; 
+	background-size: cover; 
+	box-shadow: 200px -125px 125px inset #080914, -50px 125px 125px inset #080914;
+	align-items: center;
+}
+section.story img { max-width: 480px; width: 100%; }
+section.location { align-items: center; }
+section.location img { max-width: 480px; width: 100%; }
 section.find-us { max-width: 90%; justify-content: flex-end; align-items: flex-start; background: url('../images/thonglor-map.jpg') center no-repeat; height: 50vh; }
 table.business-hours th {
   text-align: right; 
@@ -405,7 +415,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	footer { margin-bottom: 15%; }
 	.branding-menu { width: 200px; height: 200px; }
 	section.find-us { align-items: flex-end; height: 65vh; }
-	section.about-us { flex-direction: column-reverse; }
+	section.about-us, section.story { flex-direction: column-reverse; }
 	.about-img, .map-img { height: 50vh; }
 	section h2 { padding-top: 5%; }
 	.food-item { display: block; }
