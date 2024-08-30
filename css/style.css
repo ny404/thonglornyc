@@ -402,6 +402,9 @@ i.fa-level-up-alt { vertical-align: top; }
 ul.footer-links { text-align: right; }
 ul.footer-links li { display: inline-block; padding: 0 1em; }
 
+.fa-lg { font-size: initial; }
+.mobile-tooltip { display: none; }
+
 @media screen and (max-width: 1024px){
 	#nav-menu { width: 15%; }
 	#container { margin-left: 15%; }
@@ -455,4 +458,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	.fa-mobile-screen:after { content: 'Call'; }
 	.fa-wine-glass-alt:after { content: 'Drink'; }
 	.fa-bag-shopping:after { content: 'Order'; }
+	.fa-lg { font-size: 1.25em; }
+	.tooltip { padding: 10% 0 0; }
+	.mobile-tooltip { display: block; }
 }
