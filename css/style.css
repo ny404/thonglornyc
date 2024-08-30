@@ -440,9 +440,9 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	ul.primary li { display: inline-block; width: 33.3333333%; float: left;}
 	ul.secondary li { display: block; }
 	ul.social li { padding: 2.5%; }
-	.tooltip { padding: 5% 0; }
+/*	.tooltip { padding: 5% 0; }*/
 	.tooltip:hover:before, .tooltip:hover:after { display: none; }
-	i.fa-home:after, i.fa-utensils:after, i.fa-mobile-alt:after, i.fa-wine-glass-alt:after, i.fa-shopping-bag:after {     
+  .fa-house:after, .fa-utensils:after, .fa-mobile-screen:after, .fa-wine-glass-alt:after, .fa-bag-shopping:after {     
 		font-size: 0.5em;
 	    font-family: 'Roboto', sans-serif;
 	    font-weight: 300;
@@ -450,9 +450,9 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	    line-height: 1.6em;
 	    display: block; 
 	}
-	i.fa-home:after { content: 'Home'; }
-	i.fa-utensils:after { content: 'Food'; }
-	i.fa-mobile-alt:after { content: 'Call'; }
-	i.fa-wine-glass-alt:after { content: 'Drink'; }
-	i.fa-shopping-bag:after { content: 'Order'; }
+  .fa-house:after { content: 'Home'; }
+	.fa-utensils:after { content: 'Food'; }
+	.fa-mobile-screen:after { content: 'Call'; }
+	.fa-wine-glass-alt:after { content: 'Drink'; }
+	.fa-bag-shopping:after { content: 'Order'; }
 }
